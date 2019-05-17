@@ -1,0 +1,437 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "User is on the main Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4944803000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Main page has loaded",
+            "match": {
+              "location": "ParaBankRegistringPageStepDefinitions.main_page_has_loaded()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 681379100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User will click on Register",
+            "match": {
+              "location": "ParaBankRegistringPageStepDefinitions.user_will_click_on_register()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 229000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User sees the registering form and \"Signing up is easy!\" is displayed as well",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Signing up is easy!",
+                  "offset": 36
+                }
+              ],
+              "location": "ParaBankRegistringPageStepDefinitions.user_sees_the_registering_form_and_something_is_displayed_as_well(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4105601100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.initializeTest()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User will insert the values in the boxes",
+        "description": "",
+        "id": "this-feature-will-handle-the-completion-of-registry-form;user-will-insert-the-values-in-the-boxes",
+        "after": [
+          {
+            "result": {
+              "duration": 704824200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDownTestChrome(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3265992800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User will add the values",
+            "match": {
+              "location": "ParaBankRegistringPageStepDefinitions.user_will_add_the_values(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "First Name",
+                  "Last Name",
+                  "Address",
+                  "City",
+                  "State",
+                  "Zip Code",
+                  "Phone",
+                  "SSN",
+                  "User Name",
+                  "Password",
+                  "Confirm"
+                ]
+              },
+              {
+                "cells": [
+                  "ksdfh",
+                  "dfkjgh",
+                  "slkdfj",
+                  "fhdfhd",
+                  "hjjh",
+                  "ryu",
+                  "rutru",
+                  "hgjghj",
+                  "jkiu",
+                  "fdgh",
+                  "sdfshj"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "The response should be displayed as invalid",
+            "match": {
+              "location": "ParaBankRegistringPageStepDefinitions.the_response_should_be_displayed_as_invalid()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC01"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "User is on the main Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5197735900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Main page has loaded",
+            "match": {
+              "location": "ParaBankRegistringPageStepDefinitions.main_page_has_loaded()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1126160600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User will click on Register",
+            "match": {
+              "location": "ParaBankRegistringPageStepDefinitions.user_will_click_on_register()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User sees the registering form and \"Signing up is easy!\" is displayed as well",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Signing up is easy!",
+                  "offset": 36
+                }
+              ],
+              "location": "ParaBankRegistringPageStepDefinitions.user_sees_the_registering_form_and_something_is_displayed_as_well(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4084956800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.initializeTest()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "The user will not add any value",
+        "description": "",
+        "id": "this-feature-will-handle-the-completion-of-registry-form;the-user-will-not-add-any-value",
+        "after": [
+          {
+            "result": {
+              "duration": 698493200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDownTestChrome(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 99300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User does not add anything",
+            "match": {
+              "location": "ParaBankRegistringPageStepDefinitions.user_does_not_add_anything()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "clicks on submit",
+            "match": {
+              "location": "ParaBankRegistringPageStepDefinitions.clicks_on_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Error should be displayed for the required fields",
+            "match": {
+              "location": "ParaBankRegistringPageStepDefinitions.error_should_be_displayed_for_the_required_fields()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC02"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "User is on the main Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4134969400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Main page has loaded",
+            "match": {
+              "location": "ParaBankRegistringPageStepDefinitions.main_page_has_loaded()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 520399400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User will click on Register",
+            "match": {
+              "location": "ParaBankRegistringPageStepDefinitions.user_will_click_on_register()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User sees the registering form and \"Signing up is easy!\" is displayed as well",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Signing up is easy!",
+                  "offset": 36
+                }
+              ],
+              "location": "ParaBankRegistringPageStepDefinitions.user_sees_the_registering_form_and_something_is_displayed_as_well(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2679095900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.initializeTest()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "User is going to check a null value",
+        "description": "",
+        "id": "this-feature-will-handle-the-completion-of-registry-form;user-is-going-to-check-a-null-value",
+        "after": [
+          {
+            "result": {
+              "duration": 775042800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDownTestChrome(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 99100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "We have null value",
+            "match": {
+              "location": "ParaBankRegistringPageStepDefinitions.we_have_null_value()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 568109700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User will input the value",
+            "match": {
+              "location": "ParaBankRegistringPageStepDefinitions.user_will_input_the_value(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "First Name",
+                  "Last Name",
+                  "Address",
+                  "City",
+                  "State",
+                  "Zip Code",
+                  "Phone",
+                  "SSN",
+                  "User Name",
+                  "Password",
+                  "Confirm"
+                ]
+              },
+              {
+                "cells": [
+                  "null",
+                  "null",
+                  "null",
+                  "null",
+                  "null",
+                  "null",
+                  "null",
+                  "",
+                  "null",
+                  "null",
+                  "null"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Account should not be created",
+            "match": {
+              "location": "ParaBankRegistringPageStepDefinitions.account_should_not_be_created()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC03"
+          }
+        ]
+      }
+    ],
+    "name": "This feature will handle the completion of registry form",
+    "description": "  As an user\n  I want to fill the registry form\n  So that i can have an active account",
+    "id": "this-feature-will-handle-the-completion-of-registry-form",
+    "keyword": "Feature",
+    "uri": "src/test/java/Features/ParaBankRegistryPage.feature",
+    "tags": []
+  }
+]
